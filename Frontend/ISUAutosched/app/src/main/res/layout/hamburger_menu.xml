@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#ff0">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Search"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/right"
+            android:contentDescription="@string/appbar_scrolling_view_behavior"
+            android:gravity="right"
+            android:padding="5dp"
+            tools:ignore="TouchTargetSizeCheck"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#D6D5CD">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20sp"
+            android:backgroundTint="#00FFFFFF"
+            android:gravity="start"
+            android:id="@+id/hamburgerFriends"
+            android:text="Groups/Friends"
+            android:textColor="#444"
+            android:textSize="20sp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20sp"
+            android:backgroundTint="#00FFFFFF"
+            android:gravity="start"
+            android:id="@+id/hamburgerCreateEventButton"
+            android:text="Create Event"
+            android:textColor="#444"
+            android:textSize="20sp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20sp"
+            android:backgroundTint="#00FFFFFF"
+            android:gravity="start"
+            android:id="@+id/hamburgerCalendarButton"
+            android:text="Calendar"
+            android:textColor="#444"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

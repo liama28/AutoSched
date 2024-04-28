@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ISU Autosched</string>
+    <string name="usernameLabel">Username:</string>
+    <string name="passwordLabel">Password:</string>
+    <string name="create_group_text">Create Group +</string>
+    <string name="friends_tab_main_menu">Friends</string>
+    <string name="add_friends_tab">Add Friends +</string>
+    <string name="groups_tab_main_menu">Groups</string>
+    <string name="unable_to_find_friends_text">Unable to find friends</string>
+    <string name="unable_to_find_groups_text">Unable to find groups</string>
+    <string name="pending_friend_requests_label">Pending Friend Requests</string>
+    <string name="incoming_friend_requests_label">Incoming Friend Requests</string>
+</resources>
